@@ -35,7 +35,8 @@ const allowedOrigins = [
   'https://event-management-1-4cat.onrender.com',
   'http://localhost:5173',
   'http://localhost:3000',
-  'https://event-management-froo.onrender.com'
+  'https://event-management-froo.onrender.com',
+  'https://event-management-1-631h.onrender.com'
 ].filter(Boolean);
 
 const uniqueOrigins = [...new Set(allowedOrigins)];
