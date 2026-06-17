@@ -694,19 +694,3 @@ exports.logout = async (req, res) => {
     });
   }
 };
-
-// ============================================
-// 🔧 WHAT WAS FIXED:
-// ============================================
-// 1. ✅ Added PasswordReset model import
-// 2. ✅ Added emailService import
-// 3. ✅ Added forgotPassword function - generates OTP and sends email
-// 4. ✅ Added verifyOTP function - validates OTP and returns reset token
-// 5. ✅ Added resetPassword function - resets password using valid token
-// 6. ✅ Added resendOTP function - resends OTP if needed
-// 7. ✅ Added logout function
-// 8. ✅ Added development mode OTP logging for testing
-// 9. ✅ Added proper error handling for all OTP operations
-// 10. ✅ Added security measures (don't reveal if email exists)
-// 11. ✅ Added email success notification after password reset
-// ============================================
